@@ -13,7 +13,7 @@ function Hero() {
                         <>
                             <h1 className="text-4xl font-semibold text-black dark:text-white">
                                 Manage your money with AI-Driven expert <br />
-                                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                                <span className="text-4xl md:text-[6rem] text-[#004DA9] font-bold mt-1 leading-none">
                                     Easy-Finance
                                 </span>
                             </h1>

@@ -11,7 +11,7 @@ function Header() {
         <div className="p-5 flex justify-between  items-center border shadow-sm">
             <div className="flex items-center">
                 <Image src={'/logo.png'} width={80} height={80} />
-                <span style={{ fontFamily: "'Dancing Script', cursive" }}  className="text-2xl text-[#2AA4E6]  font-bold capitalize">Easy-Finance</span>
+                <span  className="text-2xl text-[#004DA9]  font-bold capitalize">Easy-Finance</span>
             </div>
             {IsSignedIn ? (<UserButton />) : <div className="flex gap-2 items-center">
                 <Link href="/dashboard">

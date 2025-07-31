@@ -1,6 +1,7 @@
+'use client'
 import { UserButton } from "@clerk/nextjs";
 import React from "react";
-function DashboardHeader() {
+function Dashboardheader() {
   return (
     <div className="">
         <div></div>
@@ -8,3 +9,4 @@ function DashboardHeader() {
     </div>
   );
 }
+export default Dashboardheader;

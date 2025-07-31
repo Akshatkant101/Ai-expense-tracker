@@ -1,10 +1,12 @@
+import { config } from "dotenv";
+config();
 export default{
     dialect:'postgresql',
-    scheme:'./utils/schema.jsx',
+    schema:'./utils/schema.jsx',
     out:'.drizzle',
     dbCredentials:{
-        url:process.env.NEXT_PUBLIC_DATABSE_URL,
-        connectionString:NEXT_PUBLIC_DATABSE_URL
+        url:process.env.NEXT_PUBLIC_DATABASE_URL,
+        connectionString:process.env.NEXT_PUBLIC_DATABASE_URL
         
     }
 }

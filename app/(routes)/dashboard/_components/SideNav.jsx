@@ -71,7 +71,7 @@ function SideNav() {
         /> */}
       <div className="flex flex-row gap-1 items-center">
         <Image src={"./Logo.png"} alt="logo" width={40} height={25} />
-        <span className="text-blue-800 mt-3 font-bold text-xl">FinanSmart</span>
+        <span className="text-blue-800 mt-3 font-bold text-xl">Easy-Finance</span>
       </div>
       <div className="mt-5">
         {menuList.map((menu, index) => (
